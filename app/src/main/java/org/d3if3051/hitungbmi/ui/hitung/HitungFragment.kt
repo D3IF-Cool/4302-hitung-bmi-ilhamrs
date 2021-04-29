@@ -54,10 +54,10 @@ class HitungFragment : Fragment() {
             binding.buttonGroup.visibility = View.VISIBLE
         })
 
-        viewModel.data.observe(viewLifecycleOwner, {
-            if (it == null) return@observe
-            Log.d("HitungFragment", "Data tersimpan. ID = ${it.id}")
-        })
+//        viewModel.data.observe(viewLifecycleOwner, {
+//            if (it == null) return@observe
+//            Log.d("HitungFragment", "Data tersimpan. ID = ${it.id}")
+//        })
     }
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
